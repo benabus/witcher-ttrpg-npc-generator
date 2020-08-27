@@ -1,5 +1,10 @@
 # witcher-npc-gen
 
+## Live Version:
+
+https://benabus.github.io/witcher-ttrpg-npc-generator/
+
+
 ## Project setup
 ```
 npm install
