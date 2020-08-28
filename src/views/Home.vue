@@ -183,10 +183,10 @@ export default {
 
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <div class="row">
                         <div class="text-right col-1">Save</div>
-                        <div class="text-right col-2"></div>
+                        <div class="text-right col-4 col-md-2"></div>
                         <div class="text-left col"></div>
                     </div>
                     <div class="row border-bottom"
@@ -197,7 +197,7 @@ export default {
                                    class="form-control-md"
                                    v-model="saved_properties[table_name]">
                         </div>
-                        <div class="text-right col-2"
+                        <div class="text-right col-4 col-md-2"
                              v-text="`${capitalize(table_name)}:`"></div>
                         <div class="text-left col">
                             <div class=" font-weight-bold"
@@ -207,7 +207,7 @@ export default {
                     </div>
                 </div>
 
-                <div class="small col-4">
+                <div class="mt-md-0 mt-3 col-12 col-md-4">
                     <div>Name Generators:</div>
                     <div v-for="(link) in NAME_GENERATORS[npc['race']]"
                          :key='`link_${link}`'>
